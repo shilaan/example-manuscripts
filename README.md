@@ -31,22 +31,26 @@ Within each folder, you will find an RMarkdown document named `manuscript.Rmd`. 
 
 To generate this manuscript, all you need to do is open `manuscript.Rmd` and click on the `Knit` button in the RStudio toolbar. You can also use the Menu to navigate to `File > Knit` or use a shortcut: `Control + Shift + K` on Windows/Linux, or `Command + Shift + K` on OS X.  
 
-Note that you may have to install certain R packages before you can successfully knit these documents. Here are the lines of code that you can paste into your console (one by one) to do so: 
+Note that you may have to install certain R packages before you can successfully knit these documents. Here are the lines of code that you can paste into your console to do so: 
 
 ### R package installations
 ```
 #install CRAN packages  
-install.packages("broom")  
-install.packages("glue")  
-install.packages("here")  
-install.packages("rpact")  
-install.packages("rsvg")  
-install.packages("tidyverse")  
+install.packages(c(
+  "broom",
+  "devtools",
+  "glue",
+  "here",
+  "rpact",
+  "rvsg",
+  "tidyverse"
+))
 
 #install packages from GitHub  
-install.packages("devtools")  
-devtools::install_github("crsh/papaja@devel")  
-devtools::install_github("crsh/citr")   
-devtools::install_github('jorvlan/raincloudplots')  
-devtools::install_github("mitchelloharawild/icons")  
+devtools::install_github(c(
+  "crsh/papaja@devel",
+  "crsh/citr",
+  "jorvlan/raincloudplots",
+  "mitchelloharawild/icons"
+))
 ```
