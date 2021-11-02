@@ -1,6 +1,6 @@
 # Example manuscripts
 
-This repository contains examples of fully reproducible APA manuscripts. Slides with accompanying explanations can be found [here](https://shilaan-apa.netlify.app) (they may take a minute to load). To work with the examples provided in this repository, complete the following steps: 
+This repository contains examples of fully reproducible APA manuscripts. Slides with accompanying explanations can be found [here](https://shilaan-apa.netlify.app) (note that the slides may take a minute to load). To work with the examples provided in this repository, follow the steps below.  
 
 ## 1. Installations
 
@@ -9,7 +9,7 @@ This repository contains examples of fully reproducible APA manuscripts. Slides 
 - Install the `RMarkdown` package  
 - Install LaTeX (e.g., `TinyTex`)  
 
-After you've installed R and RStudio, open RStudio and copy the following lines of code into the `Console` tab (one by one) to install RMarkdown and TinyTex: 
+After you've installed R and RStudio, open RStudio and copy the following lines of code (one by one) into the `Console` tab to install RMarkdown and TinyTex: 
 
 `install.packages("rmarkdown")`  
 `install.packages("tinytex")`   
