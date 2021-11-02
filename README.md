@@ -25,7 +25,7 @@ After you've installed R and RStudio, open RStudio and copy the following lines 
 
 After you've successfully cloned this repository, you will have access to a `markdown_basics` folder that includes an Rmd (`markdown_basics.Rmd`) with an overview of some formatting basics in RMarkdown and a recap of some of the aspects discussed in the [reproducible manuscript slides](https://shilaan-apa.netlify.app).  
 
-In addition, you will have access to three subfolders with example manuscripts, called `example_1`, `example_2`, and `example_3`. These examples range from most complex and detailed to least complex and detailed. The first example, for example, includes functions to (1) analyze data and display inline results, (2) generate and display figures, and (3) generate and display tables. The third example is a commentary manuscript that does not include any data analysis, figures, or tables. You may wish to start there if you don't have much exposure to RMarkdown yet.  
+In addition, you will have access to three subfolders with example manuscripts: `example_1`, `example_2`, and `example_3`. These examples range from most complex and detailed to least complex and detailed. `example_1`, for example, includes functions to (1) analyze data and display inline results, (2) generate and display figures, and (3) generate and display tables. `example_3` is a brief commentary that does not include any data analysis, figures, or tables. You may wish to start there if you don't have much exposure to RMarkdown yet.  
 
 Within each folder, you will find an RMarkdown document named `manuscript.Rmd`. This is the core document that includes all the writing and code to generate the resulting fully formatted and reproducible APA manuscript named `manuscript.docx`.  
 
