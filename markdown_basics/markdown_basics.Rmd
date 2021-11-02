@@ -1,0 +1,124 @@
+---
+title: "R Markdown Basics"
+author: "Shilaan Alzahawi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Rendering a document
+
+* Knit button  
+* Windows: ctrl + shift + k 
+* Mac: command + shift + k 
+
+# Formatting Basics 
+
+Help > Markdown Quick Reference  
+
+## Emphasis
+
+*italic* **bold**
+_italic_ __bold__
+
+## Headers
+
+# Header 1
+## Header 2
+### Header 3 
+#### Header 4 
+
+## Manual Line Breaks 
+
+End a line with two or more spaces.
+
+## LaTeX Equations
+
+R Markdown supports $\LaTeX$ syntax. For example:
+
+We ran a two-sample *t*-test with $\alpha = .05$ and $\beta = .10$. 
+
+## Tables
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+# Code basics
+
+## Code chunks
+
+Insert code chunks:  
+* Insert button  
+* Windows: control + alt + i  
+* Mac: command + option + i   
+
+```{r}
+data(sleep)
+```
+
+### Chunk options
+It's recommended to name your code chunks (for instance, below, we label the chunk "get-info"). If you need a separator, hyphens (-) are recommended. Avoid spaces, periods (.), and underscores (_). 
+
+The behavior of a chunk can be controlled by passing additional comma-separated arguments.  
+
+* echo = FALSE removes the code from the rendered document  
+* warning = FALSE removes warning messages from the rendered document
+* include = FALSE removes chunk output from the rendered document (nothing is written in the output document, but the code is still evaluated so it can be used later)
+
+```{r, mean-sleep, include = FALSE}
+mean(sleep$extra)
+```
+
+## Inline code
+
+To avoid copy-pasting, we can execute R code in-line using backticks. For instance,  
+
+M = `r mean(sleep$extra)` should yield M = 1.54.
+
+# Citations
+
+If you don't have a reference manager yet, I recommend Zotero for its convenient integration with citr.  
+
+* Download Zotero at https://www.zotero.org  
+* Download the Better BibTex for Zotero extension https://retorque.re/zotero-better-bibtex/   
+* Install the citr package  
+
+```{r install-citr, eval = FALSE}
+devtools::install_github("crsh/citr")
+```
+
+
+| **Citation Type** | **Syntax** | **Rendered Citation** |
+| ------------- | ------------- | ------------- | 
+| Citation within parentheses | [@dienes2016] | (Dienes, 2016) |
+| Multiple citations  | [@gigerenzer2004; @goodman2019]  | (Gigerenzer, 2004; Goodman, 2019)  | 
+| In-text citations | @lakens2014 | Lakens (2014) |
+| Year only | [-@oakes1986] | (1986) |
+| Prefix | [e.g., @wagenmakers2007] | (e.g., Wagenmakers, 2007)
+| Suffix | [@neyman1957: p. 10] | (Neyman, 1957: p. 10)
+
+# Installing papaja
+
+First, we install TinyTex (this allows us to render PDF documents).   
+
+```{r, install-tex, eval = FALSE}
+install.packages("tinytex") 
+tinytex::install_tinytex() 
+```
+
+Second, we install papaja.  
+
+```{r, install-papaja, eval = FALSE}
+install.packages("devtools") 
+devtools::install_github("crsh/papaja@devel") 
+```
+
+
+# Acknowledgement
+
+Part of today's tutorial is based on materials generously provided by Frederik Aust at https://osf.io/r5h4m/
+
+# References
+
+Frederik Aust & Marius Barth. (2019). An alternative to copy-paste reporting: Create dynamic, submission-ready, APA-style manuscripts in R with papaja. *European Conference on Visual Perception.* https://osf.io/r5h4m/
