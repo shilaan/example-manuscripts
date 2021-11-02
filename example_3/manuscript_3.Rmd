@@ -1,0 +1,87 @@
+---
+title             : "There Is No Psychology Without Inferential Statistics"
+shorttitle        : "Comment on the Generalizability Crisis (Yarkoni, 2021)"
+
+author: 
+  - name          : "Shilaan Alzahawi"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "655 Knight Way, Graduate School of Business, Stanford, CA 94305"
+    email         : "shilaan@stanford.edu"
+
+  - name          : "Benoît Monin"
+    affiliation   : "1"
+
+affiliation:
+  - id            : "1"
+    institution   : "Stanford University, Graduate School of Business"
+
+
+authornote: 
+
+abstract: 
+  
+wordcount         : "401"
+
+bibliography      : ["references.bib"]
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : no
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_word
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+```
+
+## Abstract
+
+Quantification has been constitutive of psychology since its inception and is core to its scientific status. The adoption of qualitative methods eschewing inferential statistics is therefore unlikely to obtain. Rather than discarding useful tools because of improper use, we recommend highlighting how inferential statistics can be more thoughtfully applied.  
+
+## Commentary
+
+"Why take the trouble to compute *p*-values, Bayes Factors, or confidence intervals when evaluating qualitative theoretical claims? Why don’t psychologists simply look at the world around them, think deeply for a while, and then state --- again in qualitative terms --- what they think they have learned?" [@yarkoni2021: p.1]  
+
+Yarkoni convincingly argues that psychology is filled with studies that spuriously claim support for fixed effects while these findings often result from -- and will not generalize beyond -- the specific stimuli, measures, or manipulations used. One of Yarkoni’s proposed solutions is that one could "largely abandon inferential statistical methods in favor of qualitative methods" (Ibid., p. 9), and he argues "sincerely" that "an increased emphasis on qualitative considerations would be a welcome development in its own right in psychology" (Ibid., p.10).^[We follow Yarkoni's idiosyncratic nomenclature below and define "qualitative" as any methods that do not involve inferential statistics.]  
+
+In this commentary, we argue that Yarkoni’s call for psychology to embrace qualitative methods is likely to fall on deaf ears, because psychology has treated quantitative criteria as touchstones of psychological progress since its very inception. From the brass instruments of early psychological laboratories to the fetishization of the *p*-value in recent decades, quantitative methods have been central to psychology’s self-image and self-presentation as an objective, scientific discipline.  
+
+From its onset, quantitative methods have been constitutive of psychology because they allowed the nascent discipline to contrast itself from other inquiries into the human mind. In the early years of the discipline, psychology’s object of study had strong overlap with existing academic fields such as philosophy, but also with non-academic sources of knowledge like commonsensical beliefs, quacks, and pseudo-scientists. Because of this overlap in its subject matter, it was crucial for psychology to distinguish itself through its methods. The adoption of statistics -- with their veneer of rigor and precision -- helped establish psychology as a distinct academic discipline [@coon1993: p. 762-763], and in turn afforded psychologists scientific status, separate resources, and university positions [@ash1992: p. 198]. With time, rules related to quantification even came to define psychology’s subject matter: phenomena resisting quantification were excluded from psychology’s inquiry, and remaining phenomena were redefined to be quantifiable [@hornstein1988: p. 21-22].   
+
+Another reason for the eager adoption of quantitative methods was that agreement over methods helped paper over wide disagreement over theory. Early psychology struggled to reach consensus on theory and subject matter. Rigid rules of quantification offered an attractive strategy to ignore these theoretical difficulties and provided a common language to unify and regulate an otherwise disparate field [@danziger1990: p. 148-153].    
+
+As methods evolved, they promised ever greater objectivity. By mid-century, the institutionalization of inferential statistics further unified psychology at the methodological level [@gigerenzer1987: p. 19-20]. Inferential statistics, and particularly *p*-values, were welcomed as seemingly theory-neutral devices that mechanized the acquisition of knowledge while eliminating the need for personal judgment.  
+
+In short, quantitative methods are core to psychology’s social and scientific status. They have helped -- and continue to help -- psychology establish itself as an independent discipline, negotiate its boundaries with neighboring disciplines, demarcate itself from pseudo-science and lay observation, and compete for scarce resources. *p*-values and other inferential statistical methods are more than tools for the pursuit of theory. Their value as signals of academic status and scientific rigor is what makes them so appealing to psychology as a discipline and to individual psychologists eager for status in academia and beyond.   
+
+Given how much psychology relies on inferential statistics for both its self-definition and its social status, we conclude that we are unlikely to see any significant uptake of qualitative methods in psychology despite Yarkoni’s exhortation. Without inferential statistics, how does psychology justify its existence, its distinctiveness from other disciplines studying the human mind, and its claims to scientific status? Suggesting that psychologists abandon inferential statistics is like asking them "to tear out the beams and struts holding up the edifice of modern scientific research without offering solid construction materials to replace them" [@wasserstein2019: p.1].  
+
+The way forward is not to discard inferential statistics altogether; it is to improve the ways psychologists draw statistical inferences. Yarkoni provides a useful step in that direction. Rather than discarding the tool altogether on the basis of its improper use by some, we recommend highlighting how inferential statistics can be more thoughtfully applied. While debates rage among statisticians and psychologists about correct statistical inference, most agree that we should reject mindless, mechanical inference -- using statistics as "a rote, mechanical procedure for turning data into conclusions" [@yarkoni2021: p.2] -- and that we should instead embrace the importance of human judgment in statistical thinking.    
+
+Inferential statistics do not obviate the need for human judgment. Instead, active justification is essential at every stage of the process---for instance, when constructing hypotheses, selecting statistical models, and, to Yarkoni’s main thesis, when making claims about generalizability. As a discipline, we stand to benefit tremendously from the creation and popularization of practical tools and resources helping psychologists actively make and justify these decisions. Therefore, we call not for the adoption of qualitative methods, but for a new era of education and thoughtful application of inferential statistics to draw more accurate -- if more modest -- conclusions from our data.  
+
+We can use inferential statistics better, but not abandon them. There is no psychology without inferential statistics.  
+
+## Funding Statement
+This research received no specific grant from any funding agency, commercial, or not-for-profit sectors.  
+
+## Conflicts of Interest
+None
+
+\newpage
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id="refs" custom-style="Bibliography"></div>
+\endgroup
