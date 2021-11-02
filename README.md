@@ -1,6 +1,6 @@
 # Example manuscripts
 
-This repository contains examples of fully reproducible APA manuscripts. To work with these examples, complete the following steps: 
+This repository contains examples of fully reproducible APA manuscripts. Slides with accompanying explanations can be found [here](https://shilaan-apa.netlify.app) (they may take a minute to load). To work with the examples provided in this repository, complete the following steps: 
 
 ## 1. Installations
 
