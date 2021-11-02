@@ -45,7 +45,9 @@ install.packages(c(
   "rvsg",
   "tidyverse"
 ))
+```
 
+```
 #install packages from GitHub  
 devtools::install_github(c(
   "crsh/papaja@devel",
