@@ -7,9 +7,9 @@ This repository contains examples of fully reproducible APA manuscripts. To work
 - Install [`R`](https://cran.r-project.org/mirrors.html)
 - Install [`RStudio`](https://www.rstudio.com/products/rstudio/download/)
 - Install the `RMarkdown` package  
-- Install \LaTeX (e.g., `TinyTex`)
+- Install LaTeX (e.g., `TinyTex`)  
 
-After you've installed R and RStudio, open RStudio and copy the following lines of code into the `Console` tab to install RMarkdown and TinyTex: 
+After you've installed R and RStudio, open RStudio and copy the following lines of code into the `Console` tab (one by one) to install RMarkdown and TinyTex: 
 
 `install.packages("rmarkdown")`  
 `install.packages("tinytex")`   
@@ -29,7 +29,7 @@ Within each folder, you will find an RMarkdown document named `manuscript.Rmd`. 
 
 To generate this manuscript, all you need to do is open `manuscript.Rmd` and click on the `Knit` button in the RStudio toolbar. You can also use the Menu to navigate to `File > Knit` or use a shortcut: `Control + Shift + K` on Windows/Linux, or `Command + Shift + K` on OS X.  
 
-Note that you may have to install certain R packages before you can successfully knit these documents. Here are the lines of code that you can paste into your console to do so: 
+Note that you may have to install certain R packages before you can successfully knit these documents. Here are the lines of code that you can paste into your console (one by one) to do so: 
 
 ### R package installations
 ```
